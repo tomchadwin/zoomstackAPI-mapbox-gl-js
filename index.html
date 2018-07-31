@@ -1,13 +1,25 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My first MapboxGL map</title>  
-    <script src='mapbox-gl-0.47.0.js'></script>
-    <link href='mapbox-gl.0.47.0.css' rel='stylesheet'/>
-    <link rel="stylesheet" href="main.css"/>
-  </head>
-  <body>
-    <H1>Example 1.</H1>
-    <div id="map"></div>
-    <script src="main.js"></script>
-  </body>
+<head>
+ <meta charset='utf-8' />
+ <title>OS Open Zoomstack</title>
+ <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+ <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+ <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+ <style>
+ body { margin:0; padding:0; }
+ #map { position:absolute; top:0; bottom:0; width:100%; }
+ </style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+var map = new mapboxgl.Map({
+ container: 'map',
+ style: 'https://s3-eu-west-1.amazonaws.com/tiles.os.uk/styles/open-zoomstack-outdoor/style.json',
+ center: [-1.485, 52.567],
+ zoom: 10
+});
+</script>
+</body>
 </html>
