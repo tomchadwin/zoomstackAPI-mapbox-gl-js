@@ -314,7 +314,7 @@
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#cac4e2",
+                "fill-color": "#6ac4e2",
                 "fill-translate": [
                     "interpolate",
                     [
@@ -367,7 +367,7 @@
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "hsl(195, 68%, 80%)"
+                "fill-color": "hsl(95, 68%, 80%)"
             }
         },
         {
