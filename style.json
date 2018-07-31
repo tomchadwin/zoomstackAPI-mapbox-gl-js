@@ -3,7 +3,7 @@
     "name": "data",
     "glyphs": "https://geodata.nationaalgeoregister.nl/beta/topotiles-viewer/font/{fontstack}/{range}.pbf",
     "sources": {
-        "wm_vector":{
+        "wm_vector": {
             "type": "vector",
             "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/data/vector/open-zoomstack/{z}/{x}/{y}.pbf"
        }
