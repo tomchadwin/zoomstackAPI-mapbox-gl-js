@@ -314,7 +314,7 @@
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#6ac4e2",
+                "fill-color": "#cac4e2",
                 "fill-translate": [
                     "interpolate",
                     [
