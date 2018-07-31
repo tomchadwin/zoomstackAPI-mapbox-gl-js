@@ -13,7 +13,7 @@
     },
     "sources": {
         "composite": {
-            "url": "",
+            "tiles": ["https://s3-eu-west-1.amazonaws.com/tiles.os.uk/data/vector/open-zoomstack/{z}/{x}/{y}.pbf"],
             "type": "vector"
         }
     },
