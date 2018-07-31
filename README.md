@@ -1,2 +1,2 @@
-# example_mapboxgl_js_without_key
-Showing a simple MapboxGL.js map without an API key
+# OS Zoomstack vector tiles API in Mapbox GL JS
+https://tomchadwin.github.io/zoomstackAPI-mapbox-gl-js/
