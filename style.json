@@ -2,32 +2,5 @@
     "version": 8,
     "name": "data",
     "glyphs": "https://geodata.nationaalgeoregister.nl/beta/topotiles-viewer/font/{fontstack}/{range}.pbf",
-    "sources": {
-        "wm_vector": {
-            "type": "vector",
-            "tiles": ["https://s3-eu-west-1.amazonaws.com/tiles.os.uk/data/vector/open-zoomstack/{z}/{x}/{y}.pbf"]
-       }
-    },
-    "layers": [
-        {
-            "id":  "background",
-            "type": "background",
-            "paint": {
-                "background-color":"#D6F1E9"
-            }
-        },
-        {
-            "id": "water",
-            "type": "fill",
-            "source": "wm_vector",
-            "source-layer": "surfacewater",
-            "maxzoom": 20,
-            "minzoom": 0,
-            "paint": {
-                "fill-color" : "#80bde3",
-                "fill-outline-color": "#80bde3"
-            }
-        }
-    ]
 }
 
