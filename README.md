@@ -5,5 +5,6 @@ This example is intended to use only the Mapbox GL JS library, with all instance
 
 The other aim is to have a local copy of the style JSON, to allow people to edit as they wish.
 
-https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-zoomstack.html
-https://www.mapbox.com/mapbox-gl-js/api/
+Sign up for the Zoomstack trial at https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-zoomstack.html
+
+Find out about Mapbox GL JS at https://www.mapbox.com/mapbox-gl-js/api/
