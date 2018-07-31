@@ -5,7 +5,7 @@
     "sources": {
         "wm_vector":{
             "type": "vector",
-            "url": "https://geodata.nationaalgeoregister.nl/beta/topotiles-viewer/styles/tilejson.json"
+            "url": "https://s3-eu-west-1.amazonaws.com/tiles.os.uk/data/vector/open-zoomstack/{z}/{x}/{y}.pbf"
        }
     },
     "layers": [
@@ -17,216 +17,18 @@
             }
         },
         {
-            "id": "country",
-            "type": "fill",
-            "source": "wm_vector",
-            "source-layer": "admin",
-            "maxzoom": 20,
-            "minzoom": 0,
-            "filter": ["==", "lod1", "country"],
-            "paint": {
-                "fill-color" : "#ffffff",
-                "fill-outline-color": "#cccccc"
-            }
-        },
-        {
             "id": "water",
             "type": "fill",
             "source": "wm_vector",
-            "source-layer": "water",
+            "source-layer": "surfacewater",
             "maxzoom": 20,
             "minzoom": 0,
             "paint": {
                 "fill-color" : "#80bde3",
                 "fill-outline-color": "#80bde3"
             }
-        },
-         {
-            "id": "terrain_z0-Z12",
-            "type": "fill",
-            "source": "wm_vector",
-            "source-layer": "terrain",
-            "maxzoom": 12,
-            "minzoom": 0,
-            "paint": {
-                "fill-color" : {
-                    "property": "lod2",
-                    "type": "categorical",
-                    "stops": [
-                        ["open", "#fefcea"],
-                        ["low_vegetation", "#ffffff"],
-                        ["agriculture", "#ffffff"],
-                        ["closed", "#ffffff"],
-                        ["high_vegetation", "#C3DBB5"]
-                    ],
-                    "default": "#ffffff"
-                }
-            }
-        },
-         {
-            "id": "terrain_z12-Z20",
-            "type": "fill",
-            "source": "wm_vector",
-            "source-layer": "terrain",
-            "maxzoom": 20,
-            "minzoom": 12,
-            "filter": [">=", "z_index", 0],
-            "paint": {
-                "fill-color" : {
-                    "property": "lod2",
-                    "type": "categorical",
-                    "stops": [
-                        ["open", "#fefcea"],
-                        ["low_vegetation", "#ffffff"],
-                        ["agriculture", "#ffffff"],
-                        ["closed", "#ffffff"],
-                        ["high_vegetation", "#C3DBB5"]
-                    ],
-                    "default": "#ffffff"
-                },
-                "fill-outline-color": "#c1c1c1"
-            }
-        },
-        {
-            "id": "water_line",
-            "type": "line",
-            "source": "wm_vector",
-            "source-layer": "water-line",
-            "maxzoom": 20,
-            "minzoom": 10,
-            "paint": {
-                "line-color" : "#80bde3",
-                "line-width": {
-                    "stops":[
-                        [10, 0.1],
-                        [11, 0.3]
-                ]
-                }
-            }
-        },
-        {
-            "id": "urban_z0-Z12",
-            "type": "fill",
-            "source": "wm_vector",
-            "source-layer": "urban",
-            "maxzoom": 12,
-            "minzoom": 0,
-            "paint": {
-                "fill-color" :{
-                    "property": "lod1",
-                    "type": "categorical",
-                    "stops": [
-                        ["urban_area", "#E3DCE7"],
-                        ["buildings", "#cccccc"]
-                    ]
-                },
-                "fill-outline-color": {
-                    "property": "lod1",
-                    "type": "categorical",
-                    "stops": [
-                        ["urban_area", "#E3DCE7"],
-                        ["buildings", "#cccccc"]
-                    ]
-                }
-            }
-        },
-        {
-            "id": "urban_z12-Z20",
-            "type": "fill",
-            "source": "wm_vector",
-            "source-layer": "urban",
-            "maxzoom": 20,
-            "minzoom": 12,
-            "filter": [">=", "z_index", 0],
-            "paint": {
-                "fill-color" :{
-                    "property": "lod1",
-                    "type": "categorical",
-                    "stops": [
-                        ["urban_area", "#E3DCE7"],
-                        ["buildings", "#cccccc"]
-                    ]
-                },
-                "fill-outline-color": {
-                    "property": "lod1",
-                    "type": "categorical",
-                    "stops": [
-                        ["urban_area", "#c1c1c1"],
-                        ["buildings", "#c1c1c1"]
-                    ]
-                }
-            }
-        },
-        {
-            "id": "roads_case",
-            "type": "line",
-            "source": "wm_vector",
-            "source-layer": "infra",
-            "maxzoom": 20,
-            "minzoom": 6,
-            "filter": ["==", "lod1", "roads"],
-            "layout" :{
-                "line-cap" : "round",
-                "line-join": "round"
-            },
-            "paint": {
-                "line-color" : {
-                    "property": "lod2",
-                    "type": "categorical",
-                    "stops": [
-                        ["local", "#d1c1be"],
-                        ["arterial", "#d1c1be"],
-                        ["highway" , "#E69801"]
-                    ]
-                },
-                "line-width" : {
-                    "property": "lod2",
-                    "type": "categorical",
-                    "stops": [
-                        ["local", 2],
-                        ["arterial", 3.4],
-                        ["highway" , 4.1]
-
-                    ]
-                },
-                "line-opacity": 1
-            }
-        },
-        {
-            "id": "roads_fill",
-            "type": "line",
-            "source": "wm_vector",
-            "source-layer": "infra",
-            "maxzoom": 20,
-            "minzoom": 6,
-            "filter": ["==", "lod1", "roads"],
-            "layout" :{
-                "line-cap" : "round",
-                "line-join": "round"
-            },
-            "paint": {
-                "line-color" : {
-                    "property": "lod2",
-                    "type": "categorical",
-                    "stops": [
-                        ["local", "#ffffff"],
-                        ["arterial", "#fdf6bb"],
-                        ["highway" , "#f9e11e"]
-                    ]
-                },
-                "line-width" : {
-                    "property": "lod2",
-                    "type": "categorical",
-                    "stops": [
-                        [ "local", 1],
-                        ["arterial", 1.8],
-                        ["highway" , 2.1]
-                    ]
-                },
-                "line-opacity": 1
-            }
-        },
-        {
+        }
+/*        {
             "id": "train_case",
             "type": "line",
             "source": "wm_vector",
@@ -516,7 +318,7 @@
                 "text-opacity": 1,
                 "text-color": "#535353"
             }
-        }
+        }*/
     ]
 }
 
