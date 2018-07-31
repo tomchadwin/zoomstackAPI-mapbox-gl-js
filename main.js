@@ -5,5 +5,5 @@ var map = new mapboxgl.Map({
     zoom: 11,
     pitch:0,
     bearing: 0,
-    center: [4.8, 52.4]
+    center: [0, 54]
 });
