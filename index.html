@@ -5,6 +5,7 @@
  <title>OS Open Zoomstack</title>
  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+ <script src="Outdoor.js"></script>
  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
  <style>
  body { margin:0; padding:0; }
@@ -16,7 +17,7 @@
 <script>
 var map = new mapboxgl.Map({
  container: 'map',
- style: 'Outdoor.json',
+ style: styleJSON,
  center: [-1.485, 53.567],
  zoom: 4
 });
