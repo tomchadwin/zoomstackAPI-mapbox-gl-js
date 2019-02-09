@@ -26,7 +26,7 @@ var styleJSON = {
             "type": "background",
             "layout": {},
             "paint": {
-                "background-color": "#f4f4ee"
+                "background-color": "#f2f2f2"
             }
         },
         {
@@ -36,7 +36,7 @@ var styleJSON = {
             "source-layer": "sea",
             "layout": {},
             "paint": {
-                "fill-color": "hsl(195, 67%, 65%)",
+                "fill-color": "hsl(195, 0%, 65%)",
                 "fill-translate": [
                     "interpolate",
                     [
@@ -72,7 +72,7 @@ var styleJSON = {
             "source-layer": "sea",
             "layout": {},
             "paint": {
-                "fill-color": "hsl(195, 68%, 80%)"
+                "fill-color": "hsl(195, 0%, 80%)"
             }
         },
         {
@@ -84,7 +84,7 @@ var styleJSON = {
             "maxzoom": 12,
             "layout": {},
             "paint": {
-                "fill-color": "#e2efce",
+                "fill-color": "#dedede",
                 "fill-opacity": {
                     "base": 1,
                     "stops": [
@@ -115,7 +115,7 @@ var styleJSON = {
                 "visibility": "visible"
             },
             "paint": {
-                "fill-color": "hsl(46, 24%, 82%)",
+                "fill-color": "hsl(46, 0%, 82%)",
                 "fill-opacity": [
                     "interpolate",
                     [
@@ -148,14 +148,14 @@ var styleJSON = {
                     "Air Transport",
                     "#e6e6e6",
                     "Education",
-                    "#f7eaca",
+                    "#e0e0e0",
                     "Medical Care",
-                    "#f3d8e7",
+                    "#e6e6e6",
                     "Road Transport",
-                    "#f7f3ca",
+                    "#e0e0e0",
                     "Water Transport",
-                    "#d8e6f3",
-                    "hsl(55, 74%, 88%)"
+                    "#e6e6e6",
+                    "hsl(55, 0%, 88%)"
                 ],
                 "fill-opacity": 0.6
             }
@@ -168,8 +168,8 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#e3f0db",
-                "fill-outline-color": "#d1e7c3",
+                "fill-color": "#e6e6e6",
+                "fill-outline-color": "#d6d6d6",
                 "fill-opacity": 1,
                 "fill-antialias": false
             }
@@ -182,7 +182,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "line-color": "#b9dba4",
+                "line-color": "#bfbfbf",
                 "line-width": [
                     "interpolate",
                     [
@@ -208,7 +208,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#d1e7c3",
+                "fill-color": "#d6d6d6",
                 "fill-opacity": {
                     "base": 1,
                     "stops": [
@@ -257,7 +257,7 @@ var styleJSON = {
                     12,
                     0.6
                 ],
-                "line-color": "hsl(36, 16%, 45%)"
+                "line-color": "hsl(36, 0%, 45%)"
             }
         },
         {
@@ -274,7 +274,7 @@ var styleJSON = {
             ],
             "layout": {},
             "paint": {
-                "line-color": "#a4daeb"
+                "line-color": "#c7c7c7"
             }
         },
         {
@@ -285,7 +285,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#6ac4e2",
+                "fill-color": "#a6a6a6",
                 "fill-translate": [
                     "interpolate",
                     [
@@ -338,7 +338,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "hsl(195, 68%, 80%)"
+                "fill-color": "hsl(195, 0%, 80%)"
             }
         },
         {
@@ -349,7 +349,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#ebebd3"
+                "fill-color": "#dedede"
             }
         },
         {
@@ -625,7 +625,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "#77c776",
+                "line-color": "#9e9e9e",
                 "line-width": [
                     "interpolate",
                     [
@@ -674,7 +674,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "#08b8e8",
+                "line-color": "#787878",
                 "line-width": [
                     "interpolate",
                     [
@@ -722,7 +722,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "hsl(60, 22%, 90%)",
+                "line-color": "hsl(60, 0%, 90%)",
                 "line-width": [
                     "interpolate",
                     [
@@ -770,7 +770,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "hsl(60, 22%, 90%)",
+                "line-color": "hsl(60, 0%, 90%)",
                 "line-width": [
                     "interpolate",
                     [
@@ -818,7 +818,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "hsl(60, 22%, 90%)",
+                "line-color": "hsl(60, 0%, 90%)",
                 "line-width": [
                     "interpolate",
                     [
@@ -866,7 +866,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "hsl(60, 22%, 90%)",
+                "line-color": "hsl(60, 0%, 90%)",
                 "line-width": [
                     "interpolate",
                     [
@@ -914,7 +914,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "hsl(60, 22%, 90%)",
+                "line-color": "hsl(60, 0%, 90%)",
                 "line-width": [
                     "interpolate",
                     [
@@ -962,7 +962,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "#ebebe0",
+                "line-color": "#e6e6e6",
                 "line-width": [
                     "interpolate",
                     [
@@ -1259,7 +1259,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "#77c776",
+                "line-color": "#9e9e9e",
                 "line-width": [
                     "interpolate",
                     [
@@ -1308,7 +1308,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "hsl(193, 93%, 47%)",
+                "line-color": "hsl(193, 0%, 47%)",
                 "line-width": [
                     "interpolate",
                     [
@@ -1347,7 +1347,7 @@ var styleJSON = {
                 "line-join": "round"
             },
             "paint": {
-                "line-color": "#ebebe0",
+                "line-color": "#e6e6e6",
                 "line-width": [
                     "interpolate",
                     [
@@ -1392,9 +1392,9 @@ var styleJSON = {
                         "type"
                     ],
                     "Motorway",
-                    "#08b8e8",
+                    "#787878",
                     "Primary",
-                    "#77c776",
+                    "#9e9e9e",
                     "hsl(0, 0%, 100%)"
                 ],
                 "line-width": [
@@ -1428,7 +1428,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "line-color": "#949197",
+                "line-color": "#949494",
                 "line-width": [
                     "interpolate",
                     [
@@ -1562,7 +1562,7 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#77c776",
+                "text-halo-color": "#9e9e9e",
                 "text-halo-width": 1,
                 "text-color": "#fff",
                 "text-halo-blur": 0
@@ -1602,7 +1602,7 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#08b8e8",
+                "text-halo-color": "#787878",
                 "text-halo-width": 1,
                 "text-color": "#fff",
                 "text-halo-blur": 0
@@ -1652,7 +1652,7 @@ var styleJSON = {
             "minzoom": 11,
             "layout": {},
             "paint": {
-                "fill-extrusion-color": "#dcd7c6",
+                "fill-extrusion-color": "#d1d1d1",
                 "fill-extrusion-height": [
                     "interpolate",
                     [
@@ -1690,7 +1690,7 @@ var styleJSON = {
             "layout": {},
             "paint": {
                 "line-opacity": 0.4,
-                "line-color": "hsl(0, 9%, 55%)",
+                "line-color": "hsl(0, 0%, 55%)",
                 "line-dasharray": [
                     10,
                     5
@@ -1776,7 +1776,7 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#77c776",
+                "text-halo-color": "#9e9e9e",
                 "text-halo-width": 1,
                 "text-color": "#fff",
                 "text-halo-blur": 0
@@ -1818,7 +1818,7 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#08b8e8",
+                "text-halo-color": "#787878",
                 "text-halo-width": 1,
                 "text-color": "#fff",
                 "text-halo-blur": 0
@@ -1906,8 +1906,8 @@ var styleJSON = {
                 "symbol-spacing": 250
             },
             "paint": {
-                "text-color": "#b2a695",
-                "text-halo-color": "hsla(60, 21%, 95%, 0.7)",
+                "text-color": "#a3a3a3",
+                "text-halo-color": "hsla(60, 0%, 95%, 0.7)",
                 "text-halo-blur": 1,
                 "text-halo-width": 1
             }
@@ -1944,7 +1944,7 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "hsl(193, 78%, 36%)",
+                "text-halo-color": "hsl(193, 0%, 36%)",
                 "text-color": "#fff",
                 "text-halo-blur": 0,
                 "text-halo-width": 10
@@ -1983,10 +1983,10 @@ var styleJSON = {
                 "text-line-height": 1
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#438519"
+                "text-color": "#4f4f4f"
             }
         },
         {
@@ -2022,10 +2022,10 @@ var styleJSON = {
                 "text-line-height": 1
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#a79720"
+                "text-color": "#636363"
             }
         },
         {
@@ -2060,10 +2060,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#af7631"
+                "text-color": "#707070"
             }
         },
         {
@@ -2098,10 +2098,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#af9031"
+                "text-color": "#707070"
             }
         },
         {
@@ -2136,10 +2136,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#318fae"
+                "text-color": "#707070"
             }
         },
         {
@@ -2174,10 +2174,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#599c30"
+                "text-color": "#666"
             }
         },
         {
@@ -2212,10 +2212,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "hsl(47, 66%, 27%)"
+                "text-color": "hsl(47, 0%, 27%)"
             }
         },
         {
@@ -2263,10 +2263,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "hsl(47, 66%, 27%)",
+                "text-color": "hsl(47, 0%, 27%)",
                 "text-opacity": [
                     "interpolate",
                     [
@@ -2511,10 +2511,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#655314"
+                "text-color": "#3d3d3d"
             }
         },
         {
@@ -2549,10 +2549,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "hsl(46, 67%, 13%)"
+                "text-color": "hsl(46, 0%, 13%)"
             }
         },
         {
@@ -2587,10 +2587,10 @@ var styleJSON = {
                 ]
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#342a07"
+                "text-color": "#1f1f1f"
             }
         },
         {
@@ -2627,10 +2627,10 @@ var styleJSON = {
                 "text-line-height": 1
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#599c30",
+                "text-color": "#666",
                 "text-opacity": 0.8
             }
         },
@@ -2667,10 +2667,10 @@ var styleJSON = {
                 "text-letter-spacing": 0.05
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#342a07"
+                "text-color": "#1f1f1f"
             }
         },
         {
@@ -2708,10 +2708,10 @@ var styleJSON = {
                 "text-transform": "uppercase"
             },
             "paint": {
-                "text-halo-color": "#f4f4ee",
+                "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#342a07",
+                "text-color": "#1f1f1f",
                 "text-opacity": 0.6
             }
         }
