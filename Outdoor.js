@@ -30,42 +30,6 @@ var styleJSON = {
             }
         },
         {
-            "id": "sea shadow",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "sea",
-            "layout": {},
-            "paint": {
-                "fill-color": "hsl(195, 0%, 65%)",
-                "fill-translate": [
-                    "interpolate",
-                    [
-                        "linear"
-                    ],
-                    [
-                        "zoom"
-                    ],
-                    5,
-                    [
-                        "literal",
-                        [
-                            -0.2,
-                            -0.2
-                        ]
-                    ],
-                    15,
-                    [
-                        "literal",
-                        [
-                            -1,
-                            -1
-                        ]
-                    ]
-                ],
-                "fill-translate-anchor": "viewport"
-            }
-        },
-        {
             "id": "sea",
             "type": "fill",
             "source": "composite",
@@ -208,7 +172,7 @@ var styleJSON = {
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "fill-color": "#d6d6d6",
+                "fill-color": "#ddd",
                 "fill-opacity": {
                     "base": 1,
                     "stops": [
@@ -257,7 +221,7 @@ var styleJSON = {
                     12,
                     0.6
                 ],
-                "line-color": "hsl(36, 0%, 45%)"
+                "line-color": "hsl(36, 0%, 75%)"
             }
         },
         {
@@ -1797,56 +1761,6 @@ var styleJSON = {
             }
         },
         {
-            "id": "contour labels",
-            "type": "symbol",
-            
-            "source": "composite",
-            "source-layer": "contours",
-            "minzoom": 5,
-            "filter": [
-                "==",
-                "type",
-                "Index"
-            ],
-            "layout": {
-                "text-field": [
-                    "to-string",
-                    [
-                        "get",
-                        "height"
-                    ]
-                ],
-                "symbol-placement": "line",
-                "text-size": [
-                    "interpolate",
-                    [
-                        "linear"
-                    ],
-                    [
-                        "zoom"
-                    ],
-                    12,
-                    7,
-                    15,
-                    9,
-                    22,
-                    20
-                ],
-                "text-letter-spacing": 0.05,
-                "text-font": [
-                    "Open Sans Regular"
-                ],
-                "text-max-angle": 35,
-                "symbol-spacing": 250
-            },
-            "paint": {
-                "text-color": "#a3a3a3",
-                "text-halo-color": "hsla(60, 0%, 95%, 0.7)",
-                "text-halo-blur": 1,
-                "text-halo-width": 1
-            }
-        },
-        {
             "id": "Motorway Junctions",
             "type": "symbol",
             
@@ -1932,7 +1846,7 @@ var styleJSON = {
                 "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "hsl(47, 0%, 27%)",
+                "text-color": "hsl(47, 0%, 50%)",
                 "text-opacity": [
                     "interpolate",
                     [
@@ -2141,7 +2055,7 @@ var styleJSON = {
                 "text-halo-blur": 1,
                 "text-halo-width": 1,
                 "text-halo-color": "hsl(0, 0%, 100%)",
-                "text-color": "#303030"
+                "text-color": "#666"
             }
         },
         {
@@ -2150,7 +2064,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "names",
-            "minzoom": 5,
+            "minzoom": 10,
             "filter": [
                 "in",
                 "type",
@@ -2180,7 +2094,7 @@ var styleJSON = {
                 "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#3d3d3d"
+                "text-color": "#666"
             }
         },
         {
@@ -2189,7 +2103,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "names",
-            "minzoom": 5,
+            "minzoom": 6,
             "filter": [
                 "==",
                 "type",
@@ -2218,7 +2132,7 @@ var styleJSON = {
                 "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "hsl(46, 0%, 13%)"
+                "text-color": "hsl(46, 0%, 50%)"
             }
         },
         {
@@ -2256,7 +2170,7 @@ var styleJSON = {
                 "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#1f1f1f"
+                "text-color": "#666"
             }
         },
         {
