@@ -36,11 +36,12 @@ var styleJSON = {
             "source-layer": "sea",
             "layout": {},
             "paint": {
-                "fill-color": "hsl(195, 0%, 80%)"
+                "fill-color": "hsl(195, 0%, 90%)"
             }
         },
         {
             "id": "national-parks",
+            "tolerance": 0.75,
             "type": "fill",
             "source": "composite",
             "source-layer": "national-parks",
@@ -468,7 +469,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "roads",
-            "minzoom": 5,
+            "minzoom": 7,
             "filter": [
                 "all",
                 [
@@ -566,7 +567,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "roads",
-            "minzoom": 5,
+            "minzoom": 7,
             "filter": [
                 "all",
                 [
@@ -855,7 +856,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "roads",
-            "minzoom": 5,
+            "minzoom": 7,
             "filter": [
                 "all",
                 [
@@ -1102,7 +1103,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "roads",
-            "minzoom": 5,
+            "minzoom": 6,
             "filter": [
                 "all",
                 [
@@ -1285,7 +1286,7 @@ var styleJSON = {
             "type": "line",
             "source": "composite",
             "source-layer": "roads",
-            "minzoom": 5,
+            "minzoom": 6,
             "filter": [
                 "==",
                 "level",
@@ -2103,7 +2104,7 @@ var styleJSON = {
             
             "source": "composite",
             "source-layer": "names",
-            "minzoom": 6,
+            "minzoom": 8,
             "filter": [
                 "==",
                 "type",
@@ -2170,7 +2171,7 @@ var styleJSON = {
                 "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#666"
+                "text-color": "hsl(46, 0%, 45%)"
             }
         },
         {
@@ -2250,49 +2251,7 @@ var styleJSON = {
                 "text-halo-color": "#f2f2f2",
                 "text-halo-width": 1,
                 "text-halo-blur": 1,
-                "text-color": "#1f1f1f"
-            }
-        },
-        {
-            "id": "Country names",
-            "type": "symbol",
-            
-            "source": "composite",
-            "source-layer": "names",
-            "minzoom": 5,
-            "maxzoom": 10,
-            "filter": [
-                "==",
-                "type",
-                "Country"
-            ],
-            "layout": {
-                "text-font": [
-                    "Source Sans Pro SemiBold"
-                ],
-                "text-field": "{name}",
-                "text-size": [
-                    "interpolate",
-                    [
-                        "linear"
-                    ],
-                    [
-                        "zoom"
-                    ],
-                    5,
-                    18,
-                    10,
-                    30
-                ],
-                "text-letter-spacing": 0.2,
-                "text-transform": "uppercase"
-            },
-            "paint": {
-                "text-halo-color": "#f2f2f2",
-                "text-halo-width": 1,
-                "text-halo-blur": 1,
-                "text-color": "#1f1f1f",
-                "text-opacity": 0.6
+                "text-color": "hsl(46, 0%, 50%)"
             }
         }
     ],
